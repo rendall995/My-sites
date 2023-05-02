@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<title>Main</title>
+	<meta charset="UTF-8">
+	<meta name="format-detection" content="telephone=no">
+	<!-- <style>body{opacity: 0;}</style> -->
+	<link rel="stylesheet" href="css/style.min.css?_v=20230502190954">
+	<link rel="shortcut icon" href="favicon.ico">
+	<!-- <meta name="robots" content="noindex, nofollow"> -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+	<div class="wrapper">
+		<header class="header _header-scroll _header-show" data-scroll="70" data-scroll-show="1000">
+			<div class="header__container">
+				<div class="header__content">
+					<a href="home.html" class="header__logo _icon-dress">
+						<img src="img/header/logo.svg" alt="logo">
+					</a>
+					<div class="header__menu menu">
+						<nav class="menu__body">
+							<ul class="menu__list">
+								<li class="menu__item"><a href="home.html" class="menu__link menu__link_active">Главная</a></li>
+								<li class="menu__item"><a href="shop.html" class="menu__link">Магазин</a></li>
+								<li class="menu__item"><a href="" class="menu__link">О бренде</a></li>
+								<li class="menu__item"><a href="" class="menu__link">Контакты</a></li>
+							</ul>
+						</nav>
+					</div>
+					<div class="header__actions actions-header">
+						<div class="actions-header__contact-body">
+							<button data-popup="#callback" type="button" class="actions-header__popup _icon-phone"></button>
+							<a href="tel:+30662222222" class="actions-header__phone">+3(066)222-22-22</a>
+						</div>
+						<a href="" class="actions-header__cart _icon-cart"><span>0</span></a>
+					</div>
+					<button type="button" class="icon-menu"><span></span></button>
+				</div>
+			</div>
+		</header>
+		<main class="page">
+			<section class="page__sliders sliders-page">
+				<div class="sliders-page__container">
+					<div class="sliders-page__content">
+						<div class="slider-page-left__slider swiper">
+							<div class="slider-page-left__wrapper swiper-wrapper">
+								<div class="slider-page-left__slide swiper-slide">
+									<div class="slider-page-left__content content-left-slide">
+										<h2 class="content-left-slide__title page-title" data-swiper-parallax="-300" data-swiper-parallax-duration="300">
+											Новые поступления
+											в этом сезоне
+										</h2>
+										<div class="content-left-slide__block">
+											<div class="content-left-slide__text" data-swiper-parallax="-300" data-swiper-parallax-duration="600">
+												Утонченные сочетания и бархатные оттенки - вот то, что вы искали в этом
+												сезоне. Время исследовать.
+											</div>
+											<div class="content-left-slide__actions actions-left-slide" data-swiper-parallax-y="100">
+												<button class="actions-left-slide__button _icon-arrow-down" data-goto=".collection-page"></button>
+												<a href="shop.html" class="actions-left-slide__link button">Открыть
+													магазин</a>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="slider-page-left__slide swiper-slide">
+									<div class="slider-page-left__content content-left-slide">
+										<h2 class="content-left-slide__title page-title" data-swiper-parallax="-300" data-swiper-parallax-duration="300">
+											Что-то новенькое. Мы заждались тебя.
+										</h2>
+										<div class="content-left-slide__block">
+											<div class="content-left-slide__text" data-swiper-parallax="-300" data-swiper-parallax-duration="600">
+												Надоело искать себя в сером городе? Настало время новых идей, свежих
+												красок и вдохновения с Womazing!
+											</div>
+											<div class="content-left-slide__actions actions-left-slide" data-swiper-parallax-y="-100">
+												<button class="actions-left-slide__button _icon-arrow-down" data-goto=".collection-page__content"></button>
+												<a href="shop.html" class="actions-left-slide__link button">Открыть
+													магазин</a>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="slider-page-left__slide swiper-slide">
+									<div class="slider-page-left__content content-left-slide">
+										<h2 class="content-left-slide__title page-title" data-swiper-parallax="-300" data-swiper-parallax-duration="300">
+											Включай новый сезон с <span>WOMAZING</span>
+										</h2>
+										<div class="content-left-slide__block">
+											<div class="content-left-slide__text" data-swiper-parallax="-300" data-swiper-parallax-duration="600">
+												Мы обновили ассортимент - легендарные коллекции и новинки от
+												отечественных дизайнеров
+											</div>
+											<div class="content-left-slide__actions actions-left-slide" data-swiper-parallax-y="-100">
+												<button class="actions-left-slide__button _icon-arrow-down" data-goto=".collection-page__content"></button>
+												<a href="shop.html" class="actions-left-slide__link button">Открыть
+													магазин</a>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="swiper-pagination-left"></div>
+						</div>
+						<div class="slider-page__right">
+							<div class="slider-page-right__slider swiper">
+								<div class="slider-page-right__wrapper swiper-wrapper">
+									<div class="slider-page-right__slide swiper-slide">
+										<div class="content-right-slide__image" data-swiper-parallax-scale="0.4">
+											<picture><source srcset="img/sliders/main.webp" type="image/webp"><img src="img/sliders/main.png" alt="Image"></picture>
+										</div>
+									</div>
+									<div class="slider-page-right__slide swiper-slide">
+										<div class="content-right-slide__image" data-swiper-parallax-scale="0.4">
+											<picture><source srcset="img/sliders/main.webp" type="image/webp"><img src="img/sliders/main.png" alt="Image"></picture>
+										</div>
+									</div>
+									<div class="slider-page-right__slide swiper-slide">
+										<div class="content-right-slide__image" data-swiper-parallax-scale="0.4">
+											<picture><source srcset="img/sliders/main.webp" type="image/webp"><img src="img/sliders/main.png" alt="Image"></picture>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="slider-page__image-left">
+								<picture><source srcset="img/sliders/left.webp" type="image/webp"><img src="img/sliders/left.png" alt="Image"></picture>
+							</div>
+							<div class="slider-page__image-right">
+								<picture><source srcset="img/sliders/right.webp" type="image/webp"><img src="img/sliders/right.png" alt="Image"></picture>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section class="page__collection collection-page collection-page_main">
+				<div class="collection-page__container">
+					<div class="collection-page__content">
+						<h2 class="collection-page__title section-title">Новая коллекция</h2>
+						<div class="collection-page__products">
+							<div class="collection-page__product product-collection">
+								<a href="" class="product-collection__img _icon-arrow-right">
+									<picture><source srcset="img/collection/01.webp" type="image/webp"><img src="img/collection/01.png" alt=""></picture>
+								</a>
+								<div class="product-collection__info">
+									<a href="" class="product-collection__name">Футболка USA</a>
+									<div class="product-collection__body-price">
+										<span class="product-collection__price-discount" disabled>$229</span>
+										<span class="product-collection__price" disabled>$129</span>
+									</div>
+								</div>
+							</div>
+							<div class="collection-page__product product-collection">
+								<a href="" class="product-collection__img _icon-arrow-right">
+									<picture><source srcset="img/collection/02.webp" type="image/webp"><img src="img/collection/02.png" alt=""></picture>
+								</a>
+								<div class="product-collection__info">
+									<a href="" class="product-collection__name">Купальник Glow</a>
+									<div class="product-collection__body-price">
+										<span class="product-collection__price" disabled>$129</span>
+									</div>
+								</div>
+							</div>
+							<div class="collection-page__product product-collection">
+								<a href="" class="product-collection__img _icon-arrow-right">
+									<picture><source srcset="img/collection/03.webp" type="image/webp"><img src="img/collection/03.png" alt=""></picture>
+								</a>
+								<div class="product-collection__info">
+									<a href="" class="product-collection__name">Свитшот Sweet Shot</a>
+									<div class="product-collection__body-price">
+										<span class="product-collection__price-discount" disabled>$229</span>
+										<span class="product-collection__price" disabled>$129</span>
+									</div>
+								</div>
+							</div>
+						</div>
+						<a href="shop.html" class="collection-page__link button">Открыть магазин</a>
+					</div>
+				</div>
+			</section>
+			<section class="page__advantages advantages">
+				<div class="advantages__container">
+					<div class="advantages__content">
+						<h2 class="advantages__title section-title">Что для нас важно</h2>
+						<div class="advantages__items">
+							<article class="advantages__item item-advantages">
+								<div class="item-advantages__img">
+									<img src="img/advantages/01.svg" alt="image">
+								</div>
+								<h2 class="item-advantages__title">Качество</h2>
+								<div class="item-advantages__text">
+									Наши профессионалы работают на лучшем оборудовании для пошива одежды
+									беспрецедентного качества
+								</div>
+							</article>
+							<article class="advantages__item item-advantages">
+								<div class="item-advantages__img">
+									<img src="img/advantages/02.svg" alt="image">
+								</div>
+								<h2 class="item-advantages__title">Скорость</h2>
+								<div class="item-advantages__text">
+									Благодаря отлаженной системе в Womazing мы можем отшивать до 20-ти единиц продукции
+									в наших собственных цехах
+								</div>
+							</article>
+							<article class="advantages__item item-advantages">
+								<div class="item-advantages__img">
+									<img src="img/advantages/03.svg" alt="image">
+								</div>
+								<h2 class="item-advantages__title">Ответственность</h2>
+								<div class="item-advantages__text">
+									Мы заботимся о людях и планете. Безотходное производство и комфортные условия труда
+									- все это Womazing
+								</div>
+							</article>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section class="page__team team">
+				<div class="team__container">
+					<div class="team__content">
+						<h2 class="team__title section-title">Команда мечты Womazing</h2>
+						<div class="team__bottom-block block-bottom">
+							<div class="block-bottom__slider-block block-slider">
+								<div class="block-slider__slider swiper">
+									<div class="block-slider__wrapper swiper-wrapper">
+										<div class="block-slider__slide swiper-slide">
+											<picture><source srcset="img/team/01.webp" type="image/webp"><img data-swiper-parallax-scale="0.4" src="img/team/01.png" alt="image"></picture>
+										</div>
+										<div class="block-slider__slide swiper-slide">
+											<picture><source srcset="img/team/02.webp" type="image/webp"><img data-swiper-parallax-scale="0.4" src="img/team/02.png" alt="image"></picture>
+										</div>
+										<div class="block-slider__slide swiper-slide">
+											<picture><source srcset="img/team/03.webp" type="image/webp"><img data-swiper-parallax-scale="0.4" src="img/team/03.png" alt="image"></picture>
+										</div>
+									</div>
+									<div class="swiper-pagination-team"></div>
+									<div class="swiper-button-prev _icon-arrow-right"></div>
+									<div class="swiper-button-next _icon-arrow-right"></div>
+								</div>
+							</div>
+							<div class="block-bottom__right right-block-bottom">
+								<h2 class="right-block-bottom__title">Для каждой</h2>
+								<div class="right-block-bottom__text">
+									Каждая девушка уникальна. Однако, мы схожи в миллионе мелочей.
+									Womazing ищет эти мелочи и создает прекрасные вещи, которые выгодно подчеркивают
+									достоинства каждой девушки.
+								</div>
+								<a href="" class="right-block-bottom__link">
+									Подробнее о бренде
+								</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+		</main>
+		<footer class="footer">
+			<div class="footer__container">
+				<div class="footer__content">
+					<div class="footer__logo logo-footer">
+						<a href="" class="_icon-dress"><img src="img/header/logo.svg" alt="Logo"></a>
+						<div class="logo-footer__copy">
+							© Все права защищены
+							Политика конфиденциальности
+							Публичная оферта
+						</div>
+					</div>
+					<div class="footer__menu menu-footer">
+						<a href="home.html" class="menu-footer__title menu-footer__title_active">Главная</a>
+						<div class="menu-footer__shop-block block-shop">
+							<a href="shop.html" class="block-shop__title">Магазин</a>
+							<ul class="block-shop__body">
+								<li class="block-shop__item"><a href="" class="block-shop__link">Пальто</a></li>
+								<li class="block-shop__item"><a href="" class="block-shop__link">Свитшоты</a></li>
+								<li class="block-shop__item"><a href="" class="block-shop__link">Кардиганы</a></li>
+								<li class="block-shop__item"><a href="" class="block-shop__link">Толстовки</a></li>
+							</ul>
+						</div>
+						<a href="" class="menu-footer__title">О бренде</a>
+						<a href="" class="menu-footer__title">Контакты</a>
+					</div>
+					<div class="footer__social social-footer">
+						<div class="social-footer__contacts contacts-footer">
+							<a href="tel:+30662222222" class="contacts-footer__tel">+3(066)222-22-22</a>
+							<a href="tomail:hello@womazing.com" class="contacts-footer__email">hello@womazing.com</a>
+						</div>
+						<div class="social-footer__socials">
+							<a href="" class="_icon-instagram"></a>
+							<a href="" class="_icon-facebook"></a>
+							<a href="" class="_icon-twitter"></a>
+						</div>
+						<div class="social-footer__img">
+							<img src="img/footer/bank.svg" alt="Bank">
+						</div>
+					</div>
+				</div>
+			</div>
+		</footer>
+	</div>
+	<script src="js/app.min.js?_v=20230502190954"></script>
+	<div id="callback" aria-hidden="true" class="popup">
+		<div class="popup__wrapper">
+			<div class="popup__content callback-content">
+				<button data-close type="button" class="popup__close popup-callback-close"></button>
+				<div class="popup__body popup-callback-body">
+					<h2 class="callback-title">Заказать обратный звонок</h2>
+					<form data-dev action="" method="get" class="callback-form">
+						<input placeholder="Имя" type="text" autocomplete="off" data-required="text" class="input-name input">
+						<input placeholder="E-mail" type="email" autocomplete="off" data-error="Введен не верный E-mail" data-required="email" class="input-email input">
+						<input placeholder="Телефон" type="tel" autocomplete="off" data-required="tel" class="input-tel input">
+						<button type="submit" data-popup="#form-message" class="callback-button">Заказать звонок</button>
+					</form>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div id="form-message" aria-hidden="true" class="popup">
+		<div class="popup__wrapper">
+			<div class="popup__content thanks-content">
+				<div class="popup__body popup-thanks-body">
+					<h2 class="thanks-title">Отлично! Мы скоро вам перезвоним.</h2>
+					<button data-close type="button" class="popup__close popup-thanks-close">Закрыть</button>
+				</div>
+			</div>
+		</div>
+	</div>
+</body>
+
+</html>
