@@ -1,0 +1,625 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<title>Замовлення отримано</title>
+	<meta charset="UTF-8">
+	<meta name="format-detection" content="telephone=no">
+	<!-- <style>body{opacity: 0;}</style> -->
+	<link rel="stylesheet" href="css/style.min.css?_v=20230511204832">
+	<link rel="shortcut icon" href="favicon.ico">
+	<!-- <meta name="robots" content="noindex, nofollow"> -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+	<div class="wrapper">
+		<header class="header _header-scroll _header-show" data-scroll="70" data-scroll-show="1000">
+			<div class="header__container">
+				<div class="header__content">
+					<a href="home.html" class="header__logo _icon-dress">
+						<img src="img/header/logo.svg" alt="logo">
+					</a>
+					<div class="header__menu menu">
+						<nav class="menu__body">
+							<ul class="menu__list">
+								<li class="menu__item"><a href="home.html" class="menu__link">Главная</a></li>
+								<li class="menu__item"><a href="shop.html" class="menu__link">Магазин</a></li>
+								<li class="menu__item"><a href="about.html" class="menu__link">Обренде</a></li>
+								<li class="menu__item"><a href="contact.html" class="menu__link">Контакты</a></li>
+							</ul>
+						</nav>
+					</div>
+					<div class="header__actions actions-header">
+						<div class="actions-header__contact-body">
+							<button data-popup="#callback" type="button" class="actions-header__popup _icon-phone"></button>
+							<a href="tel:+30662222222" class="actions-header__phone">+3(066)222-22-22</a>
+						</div>
+						<a href="" class="actions-header__cart _icon-cart"><span>0</span></a>
+					</div>
+					<button type="button" class="icon-menu"><span></span></button>
+				</div>
+			</div>
+		</header>
+		<main class="page">
+			<section class="page__order-done order-done">
+				<div class="order-done__container">
+					<div class="order-done__content">
+						<div class="order-done__top-block block-top">
+							<h2 class="block-top__title page-title ">Замовлення отримано</h2>
+							<nav class="block-top__breadcrumbs breadcrumbs">
+								<ul class="breadcrumbs__list">
+									<li class="breadcrumbs__item"><a href="home.html" class="breadcrumbs__link">Главная</a></li>
+									<span class="breadcrumbs__stick"></span>
+									<li class="breadcrumbs__item"><a href="home.html" class="breadcrumbs__link">Оформлення замовлення</a></li>
+									<span class="breadcrumbs__stick"></span>
+									<li class="breadcrumbs__item"><span>Замовлення отримано<span></li>
+								</ul>
+							</nav>
+						</div>
+						<div class="order-done__main-block main-block">
+							<div class="main-block__success">
+								<div class="main-block__img">
+									<img src="img/done_order.svg" alt="Success">
+								</div>
+								<div class="main-block__text">
+									<h2 class="main-block__title">Заказ успешно оформлен</h2>
+									<p>Мы свяжемся с вами в ближайшее время!</p>
+								</div>
+							</div>
+							<a href="home.html" class="main-block__button button-white">Перейти на главную</a>
+						</div>
+					</div>
+				</div>
+			</section>
+		</main>
+		<footer class="footer">
+			<div class="footer__container">
+				<div class="footer__content">
+					<div class="footer__logo logo-footer">
+						<a href="" class="_icon-dress"><img src="img/header/logo.svg" alt="Logo"></a>
+						<div class="logo-footer__copy">
+							© Все права защищены
+							Политика конфиденциальности
+							Публичная оферта
+						</div>
+					</div>
+					<div class="footer__menu menu-footer">
+						<a href="home.html" class="menu-footer__title menu-footer__title_active">Главная</a>
+						<div class="menu-footer__shop-block block-shop">
+							<a href="shop.html" class="block-shop__title">Магазин</a>
+							<ul class="block-shop__body">
+								<li class="block-shop__item"><a href="" class="block-shop__link">Пальто</a></li>
+								<li class="block-shop__item"><a href="" class="block-shop__link">Свитшоты</a></li>
+								<li class="block-shop__item"><a href="" class="block-shop__link">Кардиганы</a></li>
+								<li class="block-shop__item"><a href="" class="block-shop__link">Толстовки</a></li>
+							</ul>
+						</div>
+						<a href="" class="menu-footer__title">О бренде</a>
+						<a href="" class="menu-footer__title">Контакты</a>
+					</div>
+					<div class="footer__social social-footer">
+						<div class="social-footer__contacts contacts-footer">
+							<a href="tel:+30662222222" class="contacts-footer__tel">+3(066)222-22-22</a>
+							<a href="tomail:hello@womazing.com" class="contacts-footer__email">hello@womazing.com</a>
+						</div>
+						<div class="social-footer__socials">
+							<a href="" class="_icon-instagram"></a>
+							<a href="" class="_icon-facebook"></a>
+							<a href="" class="_icon-twitter"></a>
+						</div>
+						<div class="social-footer__img">
+							<img src="img/footer/bank.svg" alt="Bank">
+						</div>
+					</div>
+				</div>
+			</div>
+		</footer>
+	</div>
+	<!-- Стилі для body -->
+	<style>
+		.lock body {
+			overflow: hidden;
+			touch-action: none;
+			overscroll-behavior: none;
+		}
+
+		.loading body {
+			opacity: 0;
+			visibility: hidden;
+		}
+
+		.loaded body {
+			transition: opacity 0.5s ease 0s;
+			opacity: 1;
+			visibility: visible;
+		}
+	</style>
+	<div id="fls-preloader">
+		<!-- Документація: https://template.fls.guru/template-docs/modul-preloader.html -->
+		<!-- Стилі для прелоадера -->
+
+
+		<style>
+			* {
+				padding: 0px;
+				margin: 0px;
+				border: 0px;
+			}
+
+			*,
+			*:before,
+			*:after {
+				box-sizing: border-box;
+			}
+
+			html {
+				overflow: hidden;
+				touch-action: none;
+				overscroll-behavior: none;
+			}
+
+			/* Головний блок */
+			.fls-preloader {
+				pointer-events: none;
+				z-index: 1;
+				position: fixed;
+				width: 100%;
+				height: 100%;
+				top: 0;
+				left: 0;
+				display: flex;
+				justify-content: center;
+				align-items: center;
+				background-color: #00AA9A;
+			}
+
+			/* Блок з елементами */
+			.fls-preloader__body {
+				padding: 0.93rem;
+				max-width: 31.25rem;
+				display: flex;
+				flex-direction: column;
+			}
+
+			/* Блок з лічильником */
+			.fls-preloader__counter {
+				font-size: 0rem;
+				display: none;
+			}
+
+			/* Прогресбар */
+			.fls-preloader__line {}
+
+			/* Лінія прогресбару */
+			.fls-preloader__line span {
+				display: inline-block;
+				transition: width 0.2s ease;
+				height: 0.8rem;
+				background-color: #7A956B;
+			}
+
+
+
+			html {
+				/* background: #00AA9A; */
+			}
+
+			.cont {
+				position: absolute;
+				top: 50%;
+				margin-top: -50px;
+				/* half of #content height*/
+				left: 50%;
+				margin-left: -50px;
+				width: 105px;
+				height: 105px;
+			}
+
+			.square {
+				width: 100px;
+				height: 5px;
+				-webkit-animation: desno 1s infinite;
+				animation: desno 1s infinite;
+				-webkit-animation-fill-mode: forwards;
+				animation-fill-mode: forwards;
+			}
+
+			.square2 {
+				width: 5px;
+				height: 100px;
+				opacity: 0;
+				-webkit-animation: desno2 1s infinite;
+				animation: desno2 1s infinite;
+				-webkit-animation-fill-mode: forwards;
+				animation-fill-mode: forwards;
+			}
+
+			.square3 {
+				width: 100px;
+				height: 5px;
+				margin-top: 100px;
+				opacity: 0;
+				-webkit-animation: desno3 1s infinite;
+				animation: desno3 1s infinite;
+				-webkit-animation-fill-mode: forwards;
+				animation-fill-mode: forwards;
+			}
+
+			.square4 {
+				width: 5px;
+				height: 100px;
+				margin-left: 100px;
+				margin-top: 0px;
+				opacity: 0;
+				-webkit-animation: desno3 1s infinite;
+				animation: desno3 1s infinite;
+				-webkit-animation-fill-mode: forwards;
+				animation-fill-mode: forwards;
+			}
+
+			.line {
+				border-radius: 2px;
+				background: #fff;
+				position: absolute;
+			}
+
+			@-webkit-keyframes desno {
+				0% {
+					-webkit-transform: rotate(0deg);
+					-ms-transform: rotate(0deg);
+					transform: rotate(0deg);
+				}
+
+				80% {
+					-webkit-transform: rotate(95deg);
+					-ms-transform: rotate(95deg);
+					transform: rotate(95deg);
+					-webkit-transform-origin: bottom left;
+					-ms-transform-origin: bottom left;
+					transform-origin: bottom left;
+				}
+
+				99.99% {
+					opacity: 1;
+				}
+
+				100% {
+					-webkit-transform: rotate(90deg);
+					-ms-transform: rotate(90deg);
+					transform: rotate(90deg);
+					-webkit-transform-origin: bottom left;
+					-ms-transform-origin: bottom left;
+					transform-origin: bottom left;
+					opacity: 0;
+				}
+			}
+
+			@keyframes desno {
+				0% {
+					-webkit-transform: rotate(0deg);
+					-ms-transform: rotate(0deg);
+					transform: rotate(0deg);
+				}
+
+				80% {
+					-webkit-transform: rotate(95deg);
+					-ms-transform: rotate(95deg);
+					transform: rotate(95deg);
+					-webkit-transform-origin: bottom left;
+					-ms-transform-origin: bottom left;
+					transform-origin: bottom left;
+				}
+
+				99.99% {
+					opacity: 1;
+				}
+
+				100% {
+					-webkit-transform: rotate(90deg);
+					-ms-transform: rotate(90deg);
+					transform: rotate(90deg);
+					-webkit-transform-origin: bottom left;
+					-ms-transform-origin: bottom left;
+					transform-origin: bottom left;
+					opacity: 0;
+				}
+			}
+
+			@-webkit-keyframes desno2 {
+				0% {
+					-webkit-transform: rotate(0deg);
+					-ms-transform: rotate(0deg);
+					transform: rotate(0deg);
+					opacity: 1;
+				}
+
+				80% {
+					-webkit-transform: rotate(95deg);
+					-ms-transform: rotate(95deg);
+					transform: rotate(95deg);
+					-webkit-transform-origin: bottom left;
+					-ms-transform-origin: bottom left;
+					transform-origin: bottom left;
+				}
+
+				99.99% {
+					opacity: 1;
+				}
+
+				100% {
+					-webkit-transform: rotate(90deg);
+					-ms-transform: rotate(90deg);
+					transform: rotate(90deg);
+					-webkit-transform-origin: bottom left;
+					-ms-transform-origin: bottom left;
+					transform-origin: bottom left;
+					opacity: 0;
+				}
+			}
+
+			@keyframes desno2 {
+				0% {
+					-webkit-transform: rotate(0deg);
+					-ms-transform: rotate(0deg);
+					transform: rotate(0deg);
+					opacity: 1;
+				}
+
+				80% {
+					-webkit-transform: rotate(95deg);
+					-ms-transform: rotate(95deg);
+					transform: rotate(95deg);
+					-webkit-transform-origin: bottom left;
+					-ms-transform-origin: bottom left;
+					transform-origin: bottom left;
+				}
+
+				99.99% {
+					opacity: 1;
+				}
+
+				100% {
+					-webkit-transform: rotate(90deg);
+					-ms-transform: rotate(90deg);
+					transform: rotate(90deg);
+					-webkit-transform-origin: bottom left;
+					-ms-transform-origin: bottom left;
+					transform-origin: bottom left;
+					opacity: 0;
+				}
+			}
+
+			@-webkit-keyframes desno3 {
+				0% {
+					-webkit-transform: rotate(0deg);
+					-ms-transform: rotate(0deg);
+					transform: rotate(0deg);
+					opacity: 1;
+				}
+
+				80% {
+					-webkit-transform: rotate(95deg);
+					-ms-transform: rotate(95deg);
+					transform: rotate(95deg);
+					-webkit-transform-origin: top right;
+					-ms-transform-origin: top right;
+					transform-origin: top right;
+				}
+
+				99.99% {
+					opacity: 1;
+				}
+
+				100% {
+					-webkit-transform: rotate(90deg);
+					-ms-transform: rotate(90deg);
+					transform: rotate(90deg);
+					-webkit-transform-origin: top right;
+					-ms-transform-origin: top right;
+					transform-origin: top right;
+					opacity: 0;
+				}
+			}
+
+			@keyframes desno3 {
+				0% {
+					-webkit-transform: rotate(0deg);
+					-ms-transform: rotate(0deg);
+					transform: rotate(0deg);
+					opacity: 1;
+				}
+
+				80% {
+					-webkit-transform: rotate(95deg);
+					-ms-transform: rotate(95deg);
+					transform: rotate(95deg);
+					-webkit-transform-origin: top right;
+					-ms-transform-origin: top right;
+					transform-origin: top right;
+				}
+
+				99.99% {
+					opacity: 1;
+				}
+
+				100% {
+					-webkit-transform: rotate(90deg);
+					-ms-transform: rotate(90deg);
+					transform: rotate(90deg);
+					-webkit-transform-origin: top right;
+					-ms-transform-origin: top right;
+					transform-origin: top right;
+					opacity: 0;
+				}
+			}
+
+			@-webkit-keyframes desno4 {
+				0% {
+					-webkit-transform: rotate(0deg);
+					-ms-transform: rotate(0deg);
+					transform: rotate(0deg);
+				}
+
+				80% {
+					-webkit-transform: rotate(95deg);
+					-ms-transform: rotate(95deg);
+					transform: rotate(95deg);
+					-webkit-transform-origin: top right;
+					-ms-transform-origin: top right;
+					transform-origin: top right;
+				}
+
+				99.99% {
+					opacity: 1;
+				}
+
+				100% {
+					-webkit-transform: rotate(90deg);
+					-ms-transform: rotate(90deg);
+					transform: rotate(90deg);
+					-webkit-transform-origin: top right;
+					-ms-transform-origin: top right;
+					transform-origin: top right;
+					opacity: 0;
+					-webkit-animation: desno 0.5s;
+					animation: desno 0.5s;
+				}
+			}
+
+			@keyframes desno4 {
+				0% {
+					-webkit-transform: rotate(0deg);
+					-ms-transform: rotate(0deg);
+					transform: rotate(0deg);
+				}
+
+				80% {
+					-webkit-transform: rotate(95deg);
+					-ms-transform: rotate(95deg);
+					transform: rotate(95deg);
+					-webkit-transform-origin: top right;
+					-ms-transform-origin: top right;
+					transform-origin: top right;
+				}
+
+				99.99% {
+					opacity: 1;
+				}
+
+				100% {
+					-webkit-transform: rotate(90deg);
+					-ms-transform: rotate(90deg);
+					transform: rotate(90deg);
+					-webkit-transform-origin: top right;
+					-ms-transform-origin: top right;
+					transform-origin: top right;
+					opacity: 0;
+					-webkit-animation: desno 0.5s;
+					animation: desno 0.5s;
+				}
+			}
+		</style>
+		<!-- Скріпт прелоадера -->
+		<script>
+			function preloader() {
+				const preloaderImages = document.querySelector('[data-preloader]') ? document.querySelectorAll('[data-preloader] img') : document.querySelectorAll('img');
+				const preloaderContainer = document.querySelector('#fls-preloader');
+				if (preloaderImages.length) {
+					const preloaderTemplate = `
+						<div class="fls-preloader">
+							<div class="fls-preloader__body">
+								<div class="cont">
+									<div class="line square"></div>
+									<div class="line square2"></div>
+									<div class="line square3"></div>
+									<div class="line square4"></div>
+								</div>
+								<div class="fls-preloader__counter">0%</div>
+								<div class="fls-preloader__line"><span></span></div>
+							</div>
+						</div>`;
+					document.querySelector('html').insertAdjacentHTML("beforeend", preloaderTemplate);
+
+					const
+						preloader = document.querySelector('.fls-preloader'),
+						showPecentLoad = document.querySelector('.fls-preloader__counter'),
+						showLineLoad = document.querySelector('.fls-preloader__line span'),
+						htmlDocument = document.documentElement;
+
+					let imagesLoadedCount = counter = progress = 0;
+
+					htmlDocument.classList.add('loading');
+					htmlDocument.classList.add('lock');
+
+					preloaderImages.forEach(preloaderImage => {
+						const imgClone = document.createElement('img');
+						if (imgClone) {
+							imgClone.onload = imageLoaded;
+							imgClone.onerror = imageLoaded;
+							preloaderImage.dataset.src ? imgClone.src = preloaderImage.dataset.src : imgClone.src = preloaderImage.src;
+						}
+					});
+
+					function setValueProgress(progress) {
+						showPecentLoad ? showPecentLoad.innerText = `${progress}%` : null;
+						showLineLoad ? showLineLoad.style.width = `${progress}%` : null;
+					}
+					showPecentLoad ? setValueProgress(progress) : null;
+
+					function imageLoaded() {
+						imagesLoadedCount++;
+						progress = Math.round((100 / preloaderImages.length) * imagesLoadedCount);
+						const intervalId = setInterval(() => {
+							counter >= progress ? clearInterval(intervalId) : setValueProgress(++counter);
+							counter >= 100 ? addLoadedClass() : null;
+						}, 10);
+					}
+
+					function addLoadedClass() {
+						htmlDocument.classList.add('loaded');
+						htmlDocument.classList.remove('lock');
+						htmlDocument.classList.remove('loading');
+						setInterval(() => {
+							preloader.remove();
+							preloaderContainer.remove();
+						}, 500);
+					}
+				} else {
+					preloaderContainer.remove();
+				}
+			}
+			preloader();
+		</script>
+	</div>
+	<div id="callback" aria-hidden="true" class="popup">
+		<div class="popup__wrapper">
+			<div class="popup__content callback-content">
+				<button data-close type="button" class="popup__close popup-callback-close"></button>
+				<div class="popup__body popup-callback-body">
+					<h2 class="callback-title">Заказать обратный звонок</h2>
+					<form data-dev action="" method="get" class="callback-form">
+						<input placeholder="Имя" type="text" autocomplete="off" data-required="text" class="input-name input">
+						<input placeholder="E-mail" type="email" autocomplete="off" data-error="Введен не верный E-mail" data-required="email" class="input-email input">
+						<input placeholder="Телефон" type="tel" autocomplete="off" data-required="tel" class="input-tel input">
+						<button type="submit" data-popup="#form-message" class="callback-button">Заказать звонок</button>
+					</form>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div id="form-message" aria-hidden="true" class="popup">
+		<div class="popup__wrapper">
+			<div class="popup__content thanks-content">
+				<div class="popup__body popup-thanks-body">
+					<h2 class="thanks-title">Отлично! Мы скоро вам перезвоним.</h2>
+					<button data-close type="button" class="popup__close popup-thanks-close">Закрыть</button>
+				</div>
+			</div>
+		</div>
+	</div>
+	<script src="js/app.min.js?_v=20230511204832"></script>
+</body>
+
+</html>
